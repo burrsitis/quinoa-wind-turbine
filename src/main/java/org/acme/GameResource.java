@@ -111,8 +111,8 @@ public class GameResource {
     }
 
     @GET
-    @Path("hello")
-    public String hello() {
+    @Path("alive")
+    public String alive() {
         Locale locale;
         DateFormat dateFormat; 
         String pattern; 
